@@ -1,0 +1,178 @@
+header {
+	background-color: #0F3748;
+	border-radius: 25px;
+	box-shadow: 3px 3px 5px 5px grey; 
+	font-family: "handlee"
+	margin: 1%;
+	padding: 1%;
+	width: 97%;
+}
+@font-face {
+	font-family: "handlee";
+	src: (fonts/Handlee-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+/* Font found at: https://fonts.google.com/specimen/Handlee#standard-styles */
+body { 
+	background-color: #E8E8E8;
+	font-family: ;
+	margin: 1%;
+}
+main {
+	float: right;
+	width: 70%;
+}
+section { 
+	background-color: #0F3748; 
+	border-radius: 25px;
+	box-shadow: 3px 3px 5px 5px grey; 
+	margin-bottom: 2%;
+	padding: 1%;
+}
+article {
+	background-color: #8FAFBD;
+	border-radius: 25px;
+	box-shadow: 3px 3px 5px grey;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+h1.first { 
+	color: white;
+	font-family: "Times New Roman", serif;
+	font-size: 270%;
+	font-weight: bold;
+	text-align: center;
+	
+}
+h1.second {
+	color: white; 
+	font-family: handlee, "Times New Roman", serif;
+	font-size: 250%;
+	text-align: center;
+}
+h2 { 
+	font-family: "Times New Roman", serif;
+	font-size: 200%;
+	padding-top: 2%;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Times New Roman", serif;
+	font-size: 150%;
+	padding-top: 1%;
+	text-align: center;
+	text-decoration: underline;
+}
+p { 
+	font-family: "Times New Roman", serif;
+	font-size: 115%;
+	text-indent: 3%;
+}
+/* Enjoy my cats as bullets */
+li.kiwi {
+	
+	font-family: ;
+	background: url("../images/kiwi.png") no-repeat left;
+	padding-left: 2em; 
+	padding-top: .5em;
+	margin: 0;
+	list-style: none;
+	line-height: 27px;
+	font-size: 105%;
+	
+}
+li.kiwihorizontal {
+	display: inline-block;
+	font-family: ;
+	background: url("../images/kiwi.png") no-repeat;
+	padding-left: 2em; 
+	padding-right: 1em;	
+	padding-bottom: .5em;
+	padding-top: .5em;
+	margin: 0;
+	list-style: none;
+	line-height: 28px;
+}
+
+.a {
+	border-radius: 50%;
+	border: ;
+	box-shadow: 10px 10px 15px 2px black;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.b {
+	background-color: white;
+	box-shadow: 10px 10px 15px 2px black;
+	height: 22em;
+	width: 14.5em;
+	text-align: center;
+	padding-top: .5em;
+}
+div.container {
+	padding: .5em .5em 5em .5em;
+}
+li.orionhorizontal {
+	display: inline-block;
+	font-family: ;	
+	background: url("../images/orion3.png") no-repeat;
+	padding-left: 2em;
+	padding-right: 1em;	
+	padding-bottom: .5em;
+	padding-top: .5em;
+	margin: 0;
+	list-style: none;
+	line-height: 28px;
+}
+li.orion {
+	font-family: ;	
+	font-size: 105%;
+	background: url("../images/orion3.png") no-repeat;
+	padding-left: 2em;
+	padding-top: .5em;
+	margin: 0;
+	list-style: none;
+	line-height: 27px;
+}
+ul.sidenav {
+	list-style: none;
+	margin: 0;
+	
+}
+aside {
+	box-shadow: 3px 3px 5px 5px grey; 
+	background: #7696A3;
+	border-radius: 25px;
+	font-family: ;
+	margin-left: 5%;
+	margin-right: 1%;
+	padding: 1%;
+	width: 18%;
+	position: sticky;
+	top: 25px;
+}
+div.c { 
+	padding-top: 2%;
+	text-align: center;
+}
+footer {
+	background-color: #0F3748;
+	border-radius: 25px;
+	box-shadow: 3px 3px 5px 5px grey;
+	clear: both;
+	font-family: ;
+	padding: 1%;
+}
+a:link { 
+	color: black;
+	text-decoration: none;
+}
+a:hover { 
+	color: white;
+}
+a:visited { 
+	color: navy;
+}
